@@ -1,0 +1,45 @@
+/*AUSTY KASONGO - PTD00041001*/
+/*Start typing your style rules below this comment*/
+body,p,h3,ul{
+	margin: 0;
+	padding: 0;
+	font-family: "arial" "Helvetica", sans-serif;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.header{
+	background-color: #60BF80;
+	height: 20vh;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav_list{
+	list-style: none;
+	display: flex;
+	gap: 26px;
+}
+
+.nav_link{
+	text-decoration: none;
+	color: #D92C49;
+	font-size: 16px;
+	font-weight: 700;
+}
+.main{
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	gap: 32px;
+}
